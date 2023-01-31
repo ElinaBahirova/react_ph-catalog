@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Open+Sans:wght@500;600;700&display=swap');
+
+@import "./components/Header/header.scss";
+@import "./components/Banner/Banner.scss";
+@import "./components/ProductSlider/ProductSlider.scss";
+@import "./components/ProductCard/ProductCard.scss";
+@import "./components/AddButton/AddButton.scss";
+@import "./components/FavoriteButton/FavoriteButton.scss";
+@import "./pages/HomePage/HomePage.scss";
+
+body, h1, h2, h3 {
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1136px;
+  padding: 0 20px;
+}

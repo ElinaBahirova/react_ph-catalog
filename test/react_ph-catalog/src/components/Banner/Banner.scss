@@ -1,0 +1,67 @@
+.banner {
+  &__content {
+    display: flex;
+    column-gap: 16px;
+    height: 400px;
+  }
+
+  &__button {
+    width: 32px;
+    height: 100%;
+    padding: 0;
+    border: 1px solid #B4BDC4;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background-color: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    &--nxt {
+      background-image: url(../../helpers/images/icons/left.svg);
+    }
+
+    &--prev {
+      background-image: url(../../helpers/images/icons/right.svg);
+    }
+  }
+
+  &__image {
+    width: 1040px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &--1 {
+      background-image: url(../../helpers/images/banners/Banner1.jpg);
+    }
+
+    &--2 {
+      background-image: url(../../helpers/images/banners/Banner2.jpg);
+    }
+
+    &--3 {
+      background-image: url(../../helpers/images/banners/Banner3.png);
+    }
+  }
+
+  &__slides {
+    display: flex;
+    justify-content: center;
+    column-gap: 14px;
+    margin-top: 18px;
+  }
+
+  &__select-btn {
+    width: 14px;
+    height: 4px;
+    border: 0;
+    padding: 0;
+    background-color: #E2E6E9;
+    cursor: pointer;
+
+    &--active {
+      background-color: #313237;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.slider {
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-family: 'Mont', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: -0.01em;
+    color: #313237;
+  }
+
+  &__buttons {
+    display: flex;
+    column-gap: 16px;
+  }
+
+  &__button {
+    box-sizing: border-box;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #E2E6E9;
+    padding: 0;
+    background-color: inherit;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../helpers/images/icons/right.svg);
+    cursor: pointer;
+
+    &--left {
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    &:enabled {
+      border: 1px solid #313237;
+      background-image: url(../../helpers/images/icons/arrow-active.svg);
+    }
+  }
+
+  &__content {
+    display: flex;
+    column-gap: 16px;
+    padding-top: 24px;
+  }
+}
