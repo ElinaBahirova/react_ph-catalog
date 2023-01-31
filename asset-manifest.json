@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react_ph-catalog/static/css/main.e0ce90c3.css",
+    "main.js": "/react_ph-catalog/static/js/main.60114dd5.js",
+    "static/media/Banner3.png": "/react_ph-catalog/static/media/Banner3.ea41728a4164840d8bad.png",
+    "static/media/Banner1.jpg": "/react_ph-catalog/static/media/Banner1.2e93495e00ff71b90de5.jpg",
+    "static/media/Banner2.jpg": "/react_ph-catalog/static/media/Banner2.9d042d975bbfec4efdde.jpg",
+    "static/media/bag.svg": "/react_ph-catalog/static/media/bag.1962e42406793fa66f0d.svg",
+    "static/media/heart.svg": "/react_ph-catalog/static/media/heart.674797e4915fe97a9594.svg",
+    "static/media/logo.svg": "/react_ph-catalog/static/media/logo.13ce922e1b9e8d8894f4.svg",
+    "static/media/heart-filled.svg": "/react_ph-catalog/static/media/heart-filled.d554a185325e4fb06092.svg",
+    "index.html": "/react_ph-catalog/index.html",
+    "static/media/arrow-active.svg": "/react_ph-catalog/static/media/arrow-active.70f42d77d4895623e71b.svg",
+    "static/media/left.svg": "/react_ph-catalog/static/media/left.7460d67936be8c4491a8.svg",
+    "static/media/right.svg": "/react_ph-catalog/static/media/right.e028d3889646e0b5e56c.svg",
+    "main.e0ce90c3.css.map": "/react_ph-catalog/static/css/main.e0ce90c3.css.map",
+    "main.60114dd5.js.map": "/react_ph-catalog/static/js/main.60114dd5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0ce90c3.css",
+    "static/js/main.60114dd5.js"
+  ]
+}
